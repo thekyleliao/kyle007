@@ -109,10 +109,19 @@ export default function Home() {
                 
                 <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6 text-left">
                   <h3 className="text-lg font-semibold mb-3 text-white">Hackathon Strategy</h3>
-                  <p className="text-gray-300 text-sm leading-relaxed">
+                  <p className="text-gray-300 text-sm leading-relaxed mb-4">
                     Master hackathon tactics - team formation, project planning, 
                     and winning presentation strategies.
                   </p>
+                  <a
+                    href="https://docs.google.com/document/d/1uvBpUkuSfQ59KnzNd6_9Nwj2nGI85ylBWHXXWozOKWs/edit?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-lg transition-colors duration-200"
+                  >
+                    <span className="mr-2">📋</span>
+                    GET ADVICE
+                  </a>
                 </div>
               </div>
             </div>
