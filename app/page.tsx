@@ -92,10 +92,19 @@ export default function Home() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6 text-left">
                   <h3 className="text-lg font-semibold mb-3 text-white">Pond Online Hackathon</h3>
-                  <p className="text-gray-300 text-sm leading-relaxed">
+                  <p className="text-gray-300 text-sm leading-relaxed mb-4">
                     Get insider details about the Pond Online Hackathon - registration, 
                     timeline, themes, and submission requirements.
                   </p>
+                  <a
+                    href="https://lu.ma/soz2qohp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 bg-green-600 hover:bg-green-700 text-white text-sm font-semibold rounded-lg transition-colors duration-200"
+                  >
+                    <span className="mr-2">🎯</span>
+                    REGISTER NOW
+                  </a>
                 </div>
                 
                 <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6 text-left">
